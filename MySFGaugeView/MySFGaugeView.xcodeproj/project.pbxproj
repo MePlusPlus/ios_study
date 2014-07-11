@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B0CCA7E1965509C00112DEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B0CCA7D1965509C00112DEB /* Foundation.framework */; };
+		1B0CCA801965509C00112DEB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B0CCA7F1965509C00112DEB /* CoreGraphics.framework */; };
+		1B0CCA821965509C00112DEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B0CCA811965509C00112DEB /* UIKit.framework */; };
+		1B0CCA881965509C00112DEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B0CCA861965509C00112DEB /* InfoPlist.strings */; };
+		1B0CCA8A1965509C00112DEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0CCA891965509C00112DEB /* main.m */; };
+		1B0CCA8E1965509C00112DEB /* WLJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0CCA8D1965509C00112DEB /* WLJAppDelegate.m */; };
+		1B0CCA901965509C00112DEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B0CCA8F1965509C00112DEB /* Images.xcassets */; };
+		1B0CCA971965509C00112DEB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B0CCA961965509C00112DEB /* XCTest.framework */; };
+		1B0CCA981965509C00112DEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B0CCA7D1965509C00112DEB /* Foundation.framework */; };
+		1B0CCA991965509C00112DEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B0CCA811965509C00112DEB /* UIKit.framework */; };
+		1B0CCAA11965509C00112DEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B0CCA9F1965509C00112DEB /* InfoPlist.strings */; };
+		1B0CCAA31965509C00112DEB /* MySFGaugeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0CCAA21965509C00112DEB /* MySFGaugeViewTests.m */; };
+		1B0CCAAE196550E500112DEB /* WLJSFGauageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0CCAAD196550E500112DEB /* WLJSFGauageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B0CCA9A1965509C00112DEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B0CCA721965509C00112DEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B0CCA791965509C00112DEB;
+			remoteInfo = MySFGaugeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B0CCA7A1965509C00112DEB /* MySFGaugeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySFGaugeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0CCA7D1965509C00112DEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B0CCA7F1965509C00112DEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1B0CCA811965509C00112DEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1B0CCA851965509C00112DEB /* MySFGaugeView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MySFGaugeView-Info.plist"; sourceTree = "<group>"; };
+		1B0CCA871965509C00112DEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B0CCA891965509C00112DEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B0CCA8B1965509C00112DEB /* MySFGaugeView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MySFGaugeView-Prefix.pch"; sourceTree = "<group>"; };
+		1B0CCA8C1965509C00112DEB /* WLJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLJAppDelegate.h; sourceTree = "<group>"; };
+		1B0CCA8D1965509C00112DEB /* WLJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLJAppDelegate.m; sourceTree = "<group>"; };
+		1B0CCA8F1965509C00112DEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1B0CCA951965509C00112DEB /* MySFGaugeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySFGaugeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0CCA961965509C00112DEB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1B0CCA9E1965509C00112DEB /* MySFGaugeViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MySFGaugeViewTests-Info.plist"; sourceTree = "<group>"; };
+		1B0CCAA01965509C00112DEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B0CCAA21965509C00112DEB /* MySFGaugeViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySFGaugeViewTests.m; sourceTree = "<group>"; };
+		1B0CCAAC196550E500112DEB /* WLJSFGauageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLJSFGauageView.h; sourceTree = "<group>"; };
+		1B0CCAAD196550E500112DEB /* WLJSFGauageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLJSFGauageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B0CCA771965509C00112DEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B0CCA801965509C00112DEB /* CoreGraphics.framework in Frameworks */,
+				1B0CCA821965509C00112DEB /* UIKit.framework in Frameworks */,
+				1B0CCA7E1965509C00112DEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B0CCA921965509C00112DEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B0CCA971965509C00112DEB /* XCTest.framework in Frameworks */,
+				1B0CCA991965509C00112DEB /* UIKit.framework in Frameworks */,
+				1B0CCA981965509C00112DEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B0CCA711965509C00112DEB = {
+			isa = PBXGroup;
+			children = (
+				1B0CCA831965509C00112DEB /* MySFGaugeView */,
+				1B0CCA9C1965509C00112DEB /* MySFGaugeViewTests */,
+				1B0CCA7C1965509C00112DEB /* Frameworks */,
+				1B0CCA7B1965509C00112DEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B0CCA7B1965509C00112DEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B0CCA7A1965509C00112DEB /* MySFGaugeView.app */,
+				1B0CCA951965509C00112DEB /* MySFGaugeViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B0CCA7C1965509C00112DEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B0CCA7D1965509C00112DEB /* Foundation.framework */,
+				1B0CCA7F1965509C00112DEB /* CoreGraphics.framework */,
+				1B0CCA811965509C00112DEB /* UIKit.framework */,
+				1B0CCA961965509C00112DEB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B0CCA831965509C00112DEB /* MySFGaugeView */ = {
+			isa = PBXGroup;
+			children = (
+				1B0CCA8C1965509C00112DEB /* WLJAppDelegate.h */,
+				1B0CCA8D1965509C00112DEB /* WLJAppDelegate.m */,
+				1B0CCA8F1965509C00112DEB /* Images.xcassets */,
+				1B0CCA841965509C00112DEB /* Supporting Files */,
+				1B0CCAAC196550E500112DEB /* WLJSFGauageView.h */,
+				1B0CCAAD196550E500112DEB /* WLJSFGauageView.m */,
+			);
+			path = MySFGaugeView;
+			sourceTree = "<group>";
+		};
+		1B0CCA841965509C00112DEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B0CCA851965509C00112DEB /* MySFGaugeView-Info.plist */,
+				1B0CCA861965509C00112DEB /* InfoPlist.strings */,
+				1B0CCA891965509C00112DEB /* main.m */,
+				1B0CCA8B1965509C00112DEB /* MySFGaugeView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B0CCA9C1965509C00112DEB /* MySFGaugeViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B0CCAA21965509C00112DEB /* MySFGaugeViewTests.m */,
+				1B0CCA9D1965509C00112DEB /* Supporting Files */,
+			);
+			path = MySFGaugeViewTests;
+			sourceTree = "<group>";
+		};
+		1B0CCA9D1965509C00112DEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B0CCA9E1965509C00112DEB /* MySFGaugeViewTests-Info.plist */,
+				1B0CCA9F1965509C00112DEB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B0CCA791965509C00112DEB /* MySFGaugeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B0CCAA61965509C00112DEB /* Build configuration list for PBXNativeTarget "MySFGaugeView" */;
+			buildPhases = (
+				1B0CCA761965509C00112DEB /* Sources */,
+				1B0CCA771965509C00112DEB /* Frameworks */,
+				1B0CCA781965509C00112DEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySFGaugeView;
+			productName = MySFGaugeView;
+			productReference = 1B0CCA7A1965509C00112DEB /* MySFGaugeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B0CCA941965509C00112DEB /* MySFGaugeViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B0CCAA91965509C00112DEB /* Build configuration list for PBXNativeTarget "MySFGaugeViewTests" */;
+			buildPhases = (
+				1B0CCA911965509C00112DEB /* Sources */,
+				1B0CCA921965509C00112DEB /* Frameworks */,
+				1B0CCA931965509C00112DEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B0CCA9B1965509C00112DEB /* PBXTargetDependency */,
+			);
+			name = MySFGaugeViewTests;
+			productName = MySFGaugeViewTests;
+			productReference = 1B0CCA951965509C00112DEB /* MySFGaugeViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B0CCA721965509C00112DEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WLJ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					1B0CCA941965509C00112DEB = {
+						TestTargetID = 1B0CCA791965509C00112DEB;
+					};
+				};
+			};
+			buildConfigurationList = 1B0CCA751965509C00112DEB /* Build configuration list for PBXProject "MySFGaugeView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B0CCA711965509C00112DEB;
+			productRefGroup = 1B0CCA7B1965509C00112DEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B0CCA791965509C00112DEB /* MySFGaugeView */,
+				1B0CCA941965509C00112DEB /* MySFGaugeViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B0CCA781965509C00112DEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B0CCA881965509C00112DEB /* InfoPlist.strings in Resources */,
+				1B0CCA901965509C00112DEB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B0CCA931965509C00112DEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B0CCAA11965509C00112DEB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B0CCA761965509C00112DEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B0CCA8E1965509C00112DEB /* WLJAppDelegate.m in Sources */,
+				1B0CCA8A1965509C00112DEB /* main.m in Sources */,
+				1B0CCAAE196550E500112DEB /* WLJSFGauageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B0CCA911965509C00112DEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B0CCAA31965509C00112DEB /* MySFGaugeViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B0CCA9B1965509C00112DEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B0CCA791965509C00112DEB /* MySFGaugeView */;
+			targetProxy = 1B0CCA9A1965509C00112DEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B0CCA861965509C00112DEB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B0CCA871965509C00112DEB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1B0CCA9F1965509C00112DEB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B0CCAA01965509C00112DEB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B0CCAA41965509C00112DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B0CCAA51965509C00112DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B0CCAA71965509C00112DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySFGaugeView/MySFGaugeView-Prefix.pch";
+				INFOPLIST_FILE = "MySFGaugeView/MySFGaugeView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1B0CCAA81965509C00112DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySFGaugeView/MySFGaugeView-Prefix.pch";
+				INFOPLIST_FILE = "MySFGaugeView/MySFGaugeView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1B0CCAAA1965509C00112DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MySFGaugeView.app/MySFGaugeView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySFGaugeView/MySFGaugeView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MySFGaugeViewTests/MySFGaugeViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1B0CCAAB1965509C00112DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MySFGaugeView.app/MySFGaugeView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySFGaugeView/MySFGaugeView-Prefix.pch";
+				INFOPLIST_FILE = "MySFGaugeViewTests/MySFGaugeViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B0CCA751965509C00112DEB /* Build configuration list for PBXProject "MySFGaugeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B0CCAA41965509C00112DEB /* Debug */,
+				1B0CCAA51965509C00112DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B0CCAA61965509C00112DEB /* Build configuration list for PBXNativeTarget "MySFGaugeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B0CCAA71965509C00112DEB /* Debug */,
+				1B0CCAA81965509C00112DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B0CCAA91965509C00112DEB /* Build configuration list for PBXNativeTarget "MySFGaugeViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B0CCAAA1965509C00112DEB /* Debug */,
+				1B0CCAAB1965509C00112DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B0CCA721965509C00112DEB /* Project object */;
+}

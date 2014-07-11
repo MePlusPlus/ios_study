@@ -1,0 +1,9 @@
+
+/* Class = "IBUITextField"; placeholder = "你的名字"; ObjectID = "am1-U5-5xo"; */
+"am1-U5-5xo.placeholder" = "你的名字";
+
+/* Class = "IBUIButton"; normalTitle = "打招呼"; ObjectID = "eXY-65-UiY"; */
+"eXY-65-UiY.normalTitle" = "打招呼";
+
+/* Class = "IBUILabel"; text = "您好"; ObjectID = "qTo-mm-bqU"; */
+"qTo-mm-bqU.text" = "您好";

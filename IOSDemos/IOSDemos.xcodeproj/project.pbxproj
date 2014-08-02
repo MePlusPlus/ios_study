@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B32DFF01980A1CD0058D18F /* WLJDocumentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B32DFEF1980A1CD0058D18F /* WLJDocumentModel.m */; };
+		1B32DFF31980A48E0058D18F /* WLJArchierViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B32DFF21980A48E0058D18F /* WLJArchierViewController.m */; };
+		1B32DFF51980B05C0058D18F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B32DFF41980B05C0058D18F /* libsqlite3.dylib */; };
+		1B32DFF91980ECEA0058D18F /* WLJThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B32DFF81980ECEA0058D18F /* WLJThreadViewController.m */; };
+		1B86A86D197CA336000604DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B86A86C197CA336000604DB /* Foundation.framework */; };
+		1B86A86F197CA336000604DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B86A86E197CA336000604DB /* CoreGraphics.framework */; };
+		1B86A871197CA336000604DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B86A870197CA336000604DB /* UIKit.framework */; };
+		1B86A877197CA336000604DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B86A875197CA336000604DB /* InfoPlist.strings */; };
+		1B86A879197CA336000604DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B86A878197CA336000604DB /* main.m */; };
+		1B86A87D197CA336000604DB /* WLJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B86A87C197CA336000604DB /* WLJAppDelegate.m */; };
+		1B86A880197CA336000604DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B86A87E197CA336000604DB /* Main.storyboard */; };
+		1B86A883197CA336000604DB /* WLJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B86A882197CA336000604DB /* WLJViewController.m */; };
+		1B86A885197CA336000604DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B86A884197CA336000604DB /* Images.xcassets */; };
+		1B86A88C197CA336000604DB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B86A88B197CA336000604DB /* XCTest.framework */; };
+		1B86A88D197CA336000604DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B86A86C197CA336000604DB /* Foundation.framework */; };
+		1B86A88E197CA336000604DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B86A870197CA336000604DB /* UIKit.framework */; };
+		1B86A896197CA336000604DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B86A894197CA336000604DB /* InfoPlist.strings */; };
+		1B86A898197CA336000604DB /* IOSDemosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B86A897197CA336000604DB /* IOSDemosTests.m */; };
+		1B86A8A3197CAF8B000604DB /* demo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B86A8A2197CAF8B000604DB /* demo1.jpg */; };
+		1B86A8A7197CBB85000604DB /* WLJControlFunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B86A8A6197CBB85000604DB /* WLJControlFunViewController.m */; };
+		1B86A8AB197D0EC7000604DB /* WLJDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B86A8AA197D0EC7000604DB /* WLJDatePickerViewController.m */; };
+		1B86A8AE197D1529000604DB /* WLJSinglePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B86A8AD197D1529000604DB /* WLJSinglePickerViewController.m */; };
+		1B86A8B1197D1CBA000604DB /* WLJDoublePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B86A8B0197D1CBA000604DB /* WLJDoublePickerViewController.m */; };
+		1B86A8B4197D36CD000604DB /* WLJDependentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B86A8B3197D36CD000604DB /* WLJDependentPickerViewController.m */; };
+		1B86A8B8197D4616000604DB /* pin1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B86A8B5197D4616000604DB /* pin1.jpg */; };
+		1B86A8B9197D4616000604DB /* pin2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B86A8B6197D4616000604DB /* pin2.jpg */; };
+		1B86A8BA197D4616000604DB /* pin3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B86A8B7197D4616000604DB /* pin3.jpg */; };
+		1B86A8BD197D4807000604DB /* WLJCustomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B86A8BC197D4807000604DB /* WLJCustomPickerViewController.m */; };
+		1B9840F11987377D00A6A31D /* smile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B9840F01987377D00A6A31D /* smile.jpg */; };
+		1B9840F5198737F700A6A31D /* WLJSmileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9840F4198737F700A6A31D /* WLJSmileViewController.m */; };
+		1BBF8383197FA562003FE97F /* WLJSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBF8382197FA562003FE97F /* WLJSettingsViewController.m */; };
+		1BBF8385197FAA2B003FE97F /* settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BBF8384197FAA2B003FE97F /* settings.storyboard */; };
+		1BBF8388197FAB06003FE97F /* WLJSpeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBF8387197FAB06003FE97F /* WLJSpeedViewController.m */; };
+		1BBF838E197FDDCB003FE97F /* WLJPlistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBF838D197FDDCB003FE97F /* WLJPlistViewController.m */; };
+		1BD01421197E1885001ED318 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD0141E197E1885001ED318 /* AudioToolbox.framework */; };
+		1BD01425197E1EE3001ED318 /* lose.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1BD01424197E1EE3001ED318 /* lose.wav */; };
+		1BD01427197E2C1C001ED318 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1BD01426197E2C1C001ED318 /* win.wav */; };
+		1BD0142B197E45C3001ED318 /* WLJCompanyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD0142A197E45C3001ED318 /* WLJCompanyTableViewController.m */; };
+		1BD0142F197E4DB7001ED318 /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BD0142C197E4DB7001ED318 /* apple.jpg */; };
+		1BD01430197E4DB7001ED318 /* google.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD0142D197E4DB7001ED318 /* google.png */; };
+		1BD01431197E4DB7001ED318 /* microsoft.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD0142E197E4DB7001ED318 /* microsoft.png */; };
+		1BD01434197E5D37001ED318 /* WLJWordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD01433197E5D37001ED318 /* WLJWordTableViewController.m */; };
+		1BD01436197E5DCC001ED318 /* sortedword.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BD01435197E5DCC001ED318 /* sortedword.plist */; };
+		1BE39695197F4B7E000A29BD /* WLJCheckOneTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE39694197F4B7E000A29BD /* WLJCheckOneTableViewController.m */; };
+		1BE39698197F548D000A29BD /* WLJUpdateTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE39697197F548D000A29BD /* WLJUpdateTableViewController.m */; };
+		1BE3969E197F9555000A29BD /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1BE3969D197F9555000A29BD /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B86A88F197CA336000604DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B86A861197CA336000604DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B86A868197CA336000604DB;
+			remoteInfo = IOSDemos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B32DFEE1980A1CD0058D18F /* WLJDocumentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLJDocumentModel.h; sourceTree = "<group>"; };
+		1B32DFEF1980A1CD0058D18F /* WLJDocumentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLJDocumentModel.m; sourceTree = "<group>"; };
+		1B32DFF11980A48E0058D18F /* WLJArchierViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLJArchierViewController.h; sourceTree = "<group>"; };
+		1B32DFF21980A48E0058D18F /* WLJArchierViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLJArchierViewController.m; sourceTree = "<group>"; };
+		1B32DFF41980B05C0058D18F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		1B32DFF71980ECEA0058D18F /* WLJThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLJThreadViewController.h; sourceTree = "<group>"; };
+		1B32DFF81980ECEA0058D18F /* WLJThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLJThreadViewController.m; sourceTree = "<group>"; };
+		1B86A869197CA336000604DB /* IOSDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B86A86C197CA336000604DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B86A86E197CA336000604DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1B86A870197CA336000604DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1B86A874197CA336000604DB /* IOSDemos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IOSDemos-Info.plist"; sourceTree = "<group>"; };
+		1B86A876197CA336000604DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B86A878197CA336000604DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B86A87A197CA336000604DB /* IOSDemos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOSDemos-Prefix.pch"; sourceTree = "<group>"; };
+		1B86A87B197CA336000604DB /* WLJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLJAppDelegate.h; sourceTree = "<group>"; };
+		1B86A87C197CA336000604DB /* WLJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLJAppDelegate.m; sourceTree = "<group>"; };
+		1B86A87F197CA336000604DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B86A881197CA336000604DB /* WLJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLJViewController.h; sourceTree = "<group>"; };
+		1B86A882197CA336000604DB /* WLJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLJViewController.m; sourceTree = "<group>"; };
+		1B86A884197CA336000604DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1B86A88A197CA336000604DB /* IOSDemosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSDemosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B86A88B197CA336000604DB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1B86A893197CA336000604DB /* IOSDemosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IOSDemosTests-Info.plist"; sourceTree = "<group>"; };
+		1B86A895197CA336000604DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B86A897197CA336000604DB /* IOSDemosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSDemosTests.m; sourceTree = "<group>"; };
+		1B86A8A2197CAF8B000604DB /* demo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = demo1.jpg; path = ../../../../Pictures/demo1.jpg; sourceTree = "<group>"; };
+		1B86A8A5197CBB85000604DB /* WLJControlFunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLJControlFunViewController.h; sourceTree = "<group>"; };
+		1B86A8A6197CBB85000604DB /* WLJControlFunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLJControlFunViewController.m; sourceTree = "<group>"; };
+		1B86A8A9197D0EC7000604DB /* WLJDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLJDatePickerViewController.h; sourceTree = "<group>"; };
+		1B86A8AA197D0EC7000604DB /* WLJDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLJDatePickerViewController.m; sourceTree = "<group>"; };
+		1B86A8AC197D1529000604DB /* WLJSinglePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLJSinglePickerViewController.h; sourceTree = "<group>"; };
+		1B86A8AD197D1529000604DB /* WLJSinglePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLJSinglePickerViewController.m; sourceTree = "<group>"; };
+		1B86A8AF197D1CBA000604DB /* WLJDoublePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLJDoublePickerViewController.h; sourceTree = "<group>"; };
+		1B86A8B0197D1CBA000604DB /* WLJDoublePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLJDoublePickerViewController.m; sourceTree = "<group>"; };
+		1B86A8B2197D36CD000604DB /* WLJDependentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLJDependentPickerViewController.h; sourceTree = "<group>"; };
+		1B86A8B3197D36CD000604DB /* WLJDependentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLJDependentPickerViewController.m; sourceTree = "<group>"; };
+		1B86A8B5197D4616000604DB /* pin1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pin1.jpg; path = ../../../../Pictures/pin1.jpg; sourceTree = "<group>"; };
+		1B86A8B6197D4616000604DB /* pin2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pin2.jpg; path = ../../../../Pictures/pin2.jpg; sourceTree = "<group>"; };
+		1B86A8B7197D4616000604DB /* pin3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pin3.jpg; path = ../../../../Pictures/pin3.jpg; sourceTree = "<group>"; };
+		1B86A8BB197D4807000604DB /* WLJCustomPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLJCustomPickerViewController.h; sourceTree = "<group>"; };
+		1B86A8BC197D4807000604DB /* WLJCustomPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLJCustomPickerViewController.m; sourceTree = "<group>"; };
+		1B9840F01987377D00A6A31D /* smile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = smile.jpg; path = ../../../../Downloads/smile.jpg; sourceTree = "<group>"; };
+		1B9840F3198737F700A6A31D /* WLJSmileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLJSmileViewController.h; sourceTree = "<group>"; };
+		1B9840F4198737F700A6A31D /* WLJSmileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLJSmileViewController.m; sourceTree = "<group>"; };
+		1BBF8381197FA562003FE97F /* WLJSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLJSettingsViewController.h; sourceTree = "<group>"; };
+		1BBF8382197FA562003FE97F /* WLJSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLJSettingsViewController.m; sourceTree = "<group>"; };
+		1BBF8384197FAA2B003FE97F /* settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = settings.storyboard; sourceTree = "<group>"; };
+		1BBF8386197FAB06003FE97F /* WLJSpeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLJSpeedViewController.h; sourceTree = "<group>"; };
+		1BBF8387197FAB06003FE97F /* WLJSpeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLJSpeedViewController.m; sourceTree = "<group>"; };
+		1BBF838C197FDDCB003FE97F /* WLJPlistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLJPlistViewController.h; sourceTree = "<group>"; };
+		1BBF838D197FDDCB003FE97F /* WLJPlistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLJPlistViewController.m; sourceTree = "<group>"; };
+		1BD0141E197E1885001ED318 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1BD0141F197E1885001ED318 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		1BD01420197E1885001ED318 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		1BD01424197E1EE3001ED318 /* lose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = lose.wav; path = ../../../../Downloads/lose.wav; sourceTree = "<group>"; };
+		1BD01426197E2C1C001ED318 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = win.wav; path = ../../../../Downloads/win.wav; sourceTree = "<group>"; };
+		1BD01429197E45C3001ED318 /* WLJCompanyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLJCompanyTableViewController.h; sourceTree = "<group>"; };
+		1BD0142A197E45C3001ED318 /* WLJCompanyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLJCompanyTableViewController.m; sourceTree = "<group>"; };
+		1BD0142C197E4DB7001ED318 /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = apple.jpg; path = ../../../../Downloads/apple.jpg; sourceTree = "<group>"; };
+		1BD0142D197E4DB7001ED318 /* google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = google.png; path = ../../../../Downloads/google.png; sourceTree = "<group>"; };
+		1BD0142E197E4DB7001ED318 /* microsoft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = microsoft.png; path = ../../../../Downloads/microsoft.png; sourceTree = "<group>"; };
+		1BD01432197E5D37001ED318 /* WLJWordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLJWordTableViewController.h; sourceTree = "<group>"; };
+		1BD01433197E5D37001ED318 /* WLJWordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLJWordTableViewController.m; sourceTree = "<group>"; };
+		1BD01435197E5DCC001ED318 /* sortedword.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sortedword.plist; sourceTree = "<group>"; };
+		1BE39693197F4B7E000A29BD /* WLJCheckOneTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLJCheckOneTableViewController.h; sourceTree = "<group>"; };
+		1BE39694197F4B7E000A29BD /* WLJCheckOneTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLJCheckOneTableViewController.m; sourceTree = "<group>"; };
+		1BE39696197F548D000A29BD /* WLJUpdateTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLJUpdateTableViewController.h; sourceTree = "<group>"; };
+		1BE39697197F548D000A29BD /* WLJUpdateTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLJUpdateTableViewController.m; sourceTree = "<group>"; };
+		1BE3969D197F9555000A29BD /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B86A866197CA336000604DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B32DFF51980B05C0058D18F /* libsqlite3.dylib in Frameworks */,
+				1BD01421197E1885001ED318 /* AudioToolbox.framework in Frameworks */,
+				1B86A86F197CA336000604DB /* CoreGraphics.framework in Frameworks */,
+				1B86A871197CA336000604DB /* UIKit.framework in Frameworks */,
+				1B86A86D197CA336000604DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B86A887197CA336000604DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B86A88C197CA336000604DB /* XCTest.framework in Frameworks */,
+				1B86A88E197CA336000604DB /* UIKit.framework in Frameworks */,
+				1B86A88D197CA336000604DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B32DFF61980ECD70058D18F /* Thread */ = {
+			isa = PBXGroup;
+			children = (
+				1B32DFF71980ECEA0058D18F /* WLJThreadViewController.h */,
+				1B32DFF81980ECEA0058D18F /* WLJThreadViewController.m */,
+			);
+			name = Thread;
+			sourceTree = "<group>";
+		};
+		1B86A860197CA336000604DB = {
+			isa = PBXGroup;
+			children = (
+				1BE3969D197F9555000A29BD /* Settings.bundle */,
+				1B86A872197CA336000604DB /* IOSDemos */,
+				1B86A891197CA336000604DB /* IOSDemosTests */,
+				1B86A86B197CA336000604DB /* Frameworks */,
+				1B86A86A197CA336000604DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B86A86A197CA336000604DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B86A869197CA336000604DB /* IOSDemos.app */,
+				1B86A88A197CA336000604DB /* IOSDemosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B86A86B197CA336000604DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B32DFF41980B05C0058D18F /* libsqlite3.dylib */,
+				1BD0141E197E1885001ED318 /* AudioToolbox.framework */,
+				1BD0141F197E1885001ED318 /* AudioUnit.framework */,
+				1BD01420197E1885001ED318 /* CoreAudio.framework */,
+				1B86A86C197CA336000604DB /* Foundation.framework */,
+				1B86A86E197CA336000604DB /* CoreGraphics.framework */,
+				1B86A870197CA336000604DB /* UIKit.framework */,
+				1B86A88B197CA336000604DB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B86A872197CA336000604DB /* IOSDemos */ = {
+			isa = PBXGroup;
+			children = (
+				1B9840F2198737DA00A6A31D /* Background */,
+				1B32DFF61980ECD70058D18F /* Thread */,
+				1BBF8389197FDBD9003FE97F /* Data Save */,
+				1BBF8380197FA32B003FE97F /* settings */,
+				1BD01428197E44E9001ED318 /* Table Views */,
+				1B86A8A8197D0ACB000604DB /* Pickers */,
+				1B86A8A4197CBAFD000604DB /* Control Fun */,
+				1B86A8A1197CAF71000604DB /* resources */,
+				1B86A87B197CA336000604DB /* WLJAppDelegate.h */,
+				1B86A87C197CA336000604DB /* WLJAppDelegate.m */,
+				1B86A87E197CA336000604DB /* Main.storyboard */,
+				1B86A881197CA336000604DB /* WLJViewController.h */,
+				1B86A882197CA336000604DB /* WLJViewController.m */,
+				1B86A884197CA336000604DB /* Images.xcassets */,
+				1B86A873197CA336000604DB /* Supporting Files */,
+			);
+			path = IOSDemos;
+			sourceTree = "<group>";
+		};
+		1B86A873197CA336000604DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B86A874197CA336000604DB /* IOSDemos-Info.plist */,
+				1B86A875197CA336000604DB /* InfoPlist.strings */,
+				1B86A878197CA336000604DB /* main.m */,
+				1B86A87A197CA336000604DB /* IOSDemos-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B86A891197CA336000604DB /* IOSDemosTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B86A897197CA336000604DB /* IOSDemosTests.m */,
+				1B86A892197CA336000604DB /* Supporting Files */,
+			);
+			path = IOSDemosTests;
+			sourceTree = "<group>";
+		};
+		1B86A892197CA336000604DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B86A893197CA336000604DB /* IOSDemosTests-Info.plist */,
+				1B86A894197CA336000604DB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B86A8A1197CAF71000604DB /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B9840F01987377D00A6A31D /* smile.jpg */,
+				1BD0142C197E4DB7001ED318 /* apple.jpg */,
+				1BD0142D197E4DB7001ED318 /* google.png */,
+				1BD0142E197E4DB7001ED318 /* microsoft.png */,
+				1BD01426197E2C1C001ED318 /* win.wav */,
+				1BD01424197E1EE3001ED318 /* lose.wav */,
+				1B86A8B5197D4616000604DB /* pin1.jpg */,
+				1B86A8B6197D4616000604DB /* pin2.jpg */,
+				1B86A8B7197D4616000604DB /* pin3.jpg */,
+				1B86A8A2197CAF8B000604DB /* demo1.jpg */,
+				1BD01435197E5DCC001ED318 /* sortedword.plist */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		1B86A8A4197CBAFD000604DB /* Control Fun */ = {
+			isa = PBXGroup;
+			children = (
+				1B86A8A5197CBB85000604DB /* WLJControlFunViewController.h */,
+				1B86A8A6197CBB85000604DB /* WLJControlFunViewController.m */,
+			);
+			name = "Control Fun";
+			sourceTree = "<group>";
+		};
+		1B86A8A8197D0ACB000604DB /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				1B86A8A9197D0EC7000604DB /* WLJDatePickerViewController.h */,
+				1B86A8AA197D0EC7000604DB /* WLJDatePickerViewController.m */,
+				1B86A8AC197D1529000604DB /* WLJSinglePickerViewController.h */,
+				1B86A8AD197D1529000604DB /* WLJSinglePickerViewController.m */,
+				1B86A8AF197D1CBA000604DB /* WLJDoublePickerViewController.h */,
+				1B86A8B0197D1CBA000604DB /* WLJDoublePickerViewController.m */,
+				1B86A8B2197D36CD000604DB /* WLJDependentPickerViewController.h */,
+				1B86A8B3197D36CD000604DB /* WLJDependentPickerViewController.m */,
+				1B86A8BB197D4807000604DB /* WLJCustomPickerViewController.h */,
+				1B86A8BC197D4807000604DB /* WLJCustomPickerViewController.m */,
+			);
+			name = Pickers;
+			sourceTree = "<group>";
+		};
+		1B9840F2198737DA00A6A31D /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				1B9840F3198737F700A6A31D /* WLJSmileViewController.h */,
+				1B9840F4198737F700A6A31D /* WLJSmileViewController.m */,
+			);
+			name = Background;
+			sourceTree = "<group>";
+		};
+		1BBF8380197FA32B003FE97F /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				1BBF8381197FA562003FE97F /* WLJSettingsViewController.h */,
+				1BBF8382197FA562003FE97F /* WLJSettingsViewController.m */,
+				1BBF8384197FAA2B003FE97F /* settings.storyboard */,
+				1BBF8386197FAB06003FE97F /* WLJSpeedViewController.h */,
+				1BBF8387197FAB06003FE97F /* WLJSpeedViewController.m */,
+			);
+			name = settings;
+			sourceTree = "<group>";
+		};
+		1BBF8389197FDBD9003FE97F /* Data Save */ = {
+			isa = PBXGroup;
+			children = (
+				1BBF838C197FDDCB003FE97F /* WLJPlistViewController.h */,
+				1BBF838D197FDDCB003FE97F /* WLJPlistViewController.m */,
+				1B32DFEE1980A1CD0058D18F /* WLJDocumentModel.h */,
+				1B32DFEF1980A1CD0058D18F /* WLJDocumentModel.m */,
+				1B32DFF11980A48E0058D18F /* WLJArchierViewController.h */,
+				1B32DFF21980A48E0058D18F /* WLJArchierViewController.m */,
+			);
+			name = "Data Save";
+			sourceTree = "<group>";
+		};
+		1BD01428197E44E9001ED318 /* Table Views */ = {
+			isa = PBXGroup;
+			children = (
+				1BD01429197E45C3001ED318 /* WLJCompanyTableViewController.h */,
+				1BD0142A197E45C3001ED318 /* WLJCompanyTableViewController.m */,
+				1BD01432197E5D37001ED318 /* WLJWordTableViewController.h */,
+				1BD01433197E5D37001ED318 /* WLJWordTableViewController.m */,
+				1BE39693197F4B7E000A29BD /* WLJCheckOneTableViewController.h */,
+				1BE39694197F4B7E000A29BD /* WLJCheckOneTableViewController.m */,
+				1BE39696197F548D000A29BD /* WLJUpdateTableViewController.h */,
+				1BE39697197F548D000A29BD /* WLJUpdateTableViewController.m */,
+			);
+			name = "Table Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B86A868197CA336000604DB /* IOSDemos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B86A89B197CA336000604DB /* Build configuration list for PBXNativeTarget "IOSDemos" */;
+			buildPhases = (
+				1B86A865197CA336000604DB /* Sources */,
+				1B86A866197CA336000604DB /* Frameworks */,
+				1B86A867197CA336000604DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOSDemos;
+			productName = IOSDemos;
+			productReference = 1B86A869197CA336000604DB /* IOSDemos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B86A889197CA336000604DB /* IOSDemosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B86A89E197CA336000604DB /* Build configuration list for PBXNativeTarget "IOSDemosTests" */;
+			buildPhases = (
+				1B86A886197CA336000604DB /* Sources */,
+				1B86A887197CA336000604DB /* Frameworks */,
+				1B86A888197CA336000604DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B86A890197CA336000604DB /* PBXTargetDependency */,
+			);
+			name = IOSDemosTests;
+			productName = IOSDemosTests;
+			productReference = 1B86A88A197CA336000604DB /* IOSDemosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B86A861197CA336000604DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WLJ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					1B86A889197CA336000604DB = {
+						TestTargetID = 1B86A868197CA336000604DB;
+					};
+				};
+			};
+			buildConfigurationList = 1B86A864197CA336000604DB /* Build configuration list for PBXProject "IOSDemos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B86A860197CA336000604DB;
+			productRefGroup = 1B86A86A197CA336000604DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B86A868197CA336000604DB /* IOSDemos */,
+				1B86A889197CA336000604DB /* IOSDemosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B86A867197CA336000604DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B86A885197CA336000604DB /* Images.xcassets in Resources */,
+				1B86A8B8197D4616000604DB /* pin1.jpg in Resources */,
+				1B9840F11987377D00A6A31D /* smile.jpg in Resources */,
+				1BD01430197E4DB7001ED318 /* google.png in Resources */,
+				1B86A8BA197D4616000604DB /* pin3.jpg in Resources */,
+				1BBF8385197FAA2B003FE97F /* settings.storyboard in Resources */,
+				1B86A877197CA336000604DB /* InfoPlist.strings in Resources */,
+				1BD0142F197E4DB7001ED318 /* apple.jpg in Resources */,
+				1BE3969E197F9555000A29BD /* Settings.bundle in Resources */,
+				1BD01431197E4DB7001ED318 /* microsoft.png in Resources */,
+				1B86A8A3197CAF8B000604DB /* demo1.jpg in Resources */,
+				1BD01436197E5DCC001ED318 /* sortedword.plist in Resources */,
+				1B86A8B9197D4616000604DB /* pin2.jpg in Resources */,
+				1BD01427197E2C1C001ED318 /* win.wav in Resources */,
+				1B86A880197CA336000604DB /* Main.storyboard in Resources */,
+				1BD01425197E1EE3001ED318 /* lose.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B86A888197CA336000604DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B86A896197CA336000604DB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B86A865197CA336000604DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B32DFF91980ECEA0058D18F /* WLJThreadViewController.m in Sources */,
+				1B86A87D197CA336000604DB /* WLJAppDelegate.m in Sources */,
+				1BBF8388197FAB06003FE97F /* WLJSpeedViewController.m in Sources */,
+				1BE39698197F548D000A29BD /* WLJUpdateTableViewController.m in Sources */,
+				1B32DFF31980A48E0058D18F /* WLJArchierViewController.m in Sources */,
+				1BD01434197E5D37001ED318 /* WLJWordTableViewController.m in Sources */,
+				1B86A8AB197D0EC7000604DB /* WLJDatePickerViewController.m in Sources */,
+				1B86A883197CA336000604DB /* WLJViewController.m in Sources */,
+				1BD0142B197E45C3001ED318 /* WLJCompanyTableViewController.m in Sources */,
+				1B86A8A7197CBB85000604DB /* WLJControlFunViewController.m in Sources */,
+				1BE39695197F4B7E000A29BD /* WLJCheckOneTableViewController.m in Sources */,
+				1B86A8BD197D4807000604DB /* WLJCustomPickerViewController.m in Sources */,
+				1B86A8AE197D1529000604DB /* WLJSinglePickerViewController.m in Sources */,
+				1BBF838E197FDDCB003FE97F /* WLJPlistViewController.m in Sources */,
+				1B86A8B1197D1CBA000604DB /* WLJDoublePickerViewController.m in Sources */,
+				1B86A8B4197D36CD000604DB /* WLJDependentPickerViewController.m in Sources */,
+				1B86A879197CA336000604DB /* main.m in Sources */,
+				1B9840F5198737F700A6A31D /* WLJSmileViewController.m in Sources */,
+				1B32DFF01980A1CD0058D18F /* WLJDocumentModel.m in Sources */,
+				1BBF8383197FA562003FE97F /* WLJSettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B86A886197CA336000604DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B86A898197CA336000604DB /* IOSDemosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B86A890197CA336000604DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B86A868197CA336000604DB /* IOSDemos */;
+			targetProxy = 1B86A88F197CA336000604DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B86A875197CA336000604DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B86A876197CA336000604DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1B86A87E197CA336000604DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B86A87F197CA336000604DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B86A894197CA336000604DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B86A895197CA336000604DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B86A899197CA336000604DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B86A89A197CA336000604DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B86A89C197CA336000604DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IOSDemos/IOSDemos-Prefix.pch";
+				INFOPLIST_FILE = "IOSDemos/IOSDemos-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1B86A89D197CA336000604DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IOSDemos/IOSDemos-Prefix.pch";
+				INFOPLIST_FILE = "IOSDemos/IOSDemos-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1B86A89F197CA336000604DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IOSDemos.app/IOSDemos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IOSDemos/IOSDemos-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IOSDemosTests/IOSDemosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1B86A8A0197CA336000604DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IOSDemos.app/IOSDemos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IOSDemos/IOSDemos-Prefix.pch";
+				INFOPLIST_FILE = "IOSDemosTests/IOSDemosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B86A864197CA336000604DB /* Build configuration list for PBXProject "IOSDemos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B86A899197CA336000604DB /* Debug */,
+				1B86A89A197CA336000604DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B86A89B197CA336000604DB /* Build configuration list for PBXNativeTarget "IOSDemos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B86A89C197CA336000604DB /* Debug */,
+				1B86A89D197CA336000604DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B86A89E197CA336000604DB /* Build configuration list for PBXNativeTarget "IOSDemosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B86A89F197CA336000604DB /* Debug */,
+				1B86A8A0197CA336000604DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B86A861197CA336000604DB /* Project object */;
+}

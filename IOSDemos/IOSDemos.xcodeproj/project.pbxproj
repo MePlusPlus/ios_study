@@ -11,6 +11,12 @@
 		1B32DFF31980A48E0058D18F /* WLJArchierViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B32DFF21980A48E0058D18F /* WLJArchierViewController.m */; };
 		1B32DFF51980B05C0058D18F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B32DFF41980B05C0058D18F /* libsqlite3.dylib */; };
 		1B32DFF91980ECEA0058D18F /* WLJThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B32DFF81980ECEA0058D18F /* WLJThreadViewController.m */; };
+		1B3DFCC6199DF7C900E419C0 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B3DFCC1199DF7C900E419C0 /* bg.jpg */; };
+		1B3DFCC7199DF7C900E419C0 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B3DFCC2199DF7C900E419C0 /* button.png */; };
+		1B3DFCC8199DF7C900E419C0 /* jump1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B3DFCC3199DF7C900E419C0 /* jump1.png */; };
+		1B3DFCC9199DF7C900E419C0 /* jump2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B3DFCC4199DF7C900E419C0 /* jump2.png */; };
+		1B3DFCCA199DF7C900E419C0 /* ryu.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B3DFCC5199DF7C900E419C0 /* ryu.png */; };
+		1B3DFCCD199DF81200E419C0 /* WLJJumpingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3DFCCC199DF81200E419C0 /* WLJJumpingViewController.m */; };
 		1B86A86D197CA336000604DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B86A86C197CA336000604DB /* Foundation.framework */; };
 		1B86A86F197CA336000604DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B86A86E197CA336000604DB /* CoreGraphics.framework */; };
 		1B86A871197CA336000604DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B86A870197CA336000604DB /* UIKit.framework */; };
@@ -53,6 +59,13 @@
 		1BE39695197F4B7E000A29BD /* WLJCheckOneTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE39694197F4B7E000A29BD /* WLJCheckOneTableViewController.m */; };
 		1BE39698197F548D000A29BD /* WLJUpdateTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE39697197F548D000A29BD /* WLJUpdateTableViewController.m */; };
 		1BE3969E197F9555000A29BD /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1BE3969D197F9555000A29BD /* Settings.bundle */; };
+		1BECADC419A6DF1700C094ED /* WLJWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BECADC319A6DF1700C094ED /* WLJWindow.m */; };
+		1BECADC619A6EBFD00C094ED /* msg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BECADC519A6EBFD00C094ED /* msg.jpg */; };
+		1BECADC919A6EDD100C094ED /* WLJShowMsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BECADC819A6EDD100C094ED /* WLJShowMsgViewController.m */; };
+		1BF0EFB319A1DE8B007921EF /* WLJCoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF0EFB219A1DE8B007921EF /* WLJCoverTableViewController.m */; };
+		1BF0EFB619A1DF58007921EF /* WLJCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF0EFB519A1DF58007921EF /* WLJCoverView.m */; };
+		1BF0EFB819A1E549007921EF /* cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BF0EFB719A1E549007921EF /* cover.jpg */; };
+		1BF0EFBA19A1EDB7007921EF /* cover2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BF0EFB919A1EDB7007921EF /* cover2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +86,13 @@
 		1B32DFF41980B05C0058D18F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		1B32DFF71980ECEA0058D18F /* WLJThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLJThreadViewController.h; sourceTree = "<group>"; };
 		1B32DFF81980ECEA0058D18F /* WLJThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLJThreadViewController.m; sourceTree = "<group>"; };
+		1B3DFCC1199DF7C900E419C0 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		1B3DFCC2199DF7C900E419C0 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		1B3DFCC3199DF7C900E419C0 /* jump1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jump1.png; sourceTree = "<group>"; };
+		1B3DFCC4199DF7C900E419C0 /* jump2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jump2.png; sourceTree = "<group>"; };
+		1B3DFCC5199DF7C900E419C0 /* ryu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ryu.png; sourceTree = "<group>"; };
+		1B3DFCCB199DF81200E419C0 /* WLJJumpingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLJJumpingViewController.h; sourceTree = "<group>"; };
+		1B3DFCCC199DF81200E419C0 /* WLJJumpingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLJJumpingViewController.m; sourceTree = "<group>"; };
 		1B86A869197CA336000604DB /* IOSDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B86A86C197CA336000604DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1B86A86E197CA336000604DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -136,6 +156,17 @@
 		1BE39696197F548D000A29BD /* WLJUpdateTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLJUpdateTableViewController.h; sourceTree = "<group>"; };
 		1BE39697197F548D000A29BD /* WLJUpdateTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLJUpdateTableViewController.m; sourceTree = "<group>"; };
 		1BE3969D197F9555000A29BD /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		1BECADC219A6DF1700C094ED /* WLJWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLJWindow.h; sourceTree = "<group>"; };
+		1BECADC319A6DF1700C094ED /* WLJWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLJWindow.m; sourceTree = "<group>"; };
+		1BECADC519A6EBFD00C094ED /* msg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = msg.jpg; sourceTree = "<group>"; };
+		1BECADC719A6EDD100C094ED /* WLJShowMsgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLJShowMsgViewController.h; sourceTree = "<group>"; };
+		1BECADC819A6EDD100C094ED /* WLJShowMsgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLJShowMsgViewController.m; sourceTree = "<group>"; };
+		1BF0EFB119A1DE8B007921EF /* WLJCoverTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLJCoverTableViewController.h; sourceTree = "<group>"; };
+		1BF0EFB219A1DE8B007921EF /* WLJCoverTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLJCoverTableViewController.m; sourceTree = "<group>"; };
+		1BF0EFB419A1DF58007921EF /* WLJCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLJCoverView.h; sourceTree = "<group>"; };
+		1BF0EFB519A1DF58007921EF /* WLJCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLJCoverView.m; sourceTree = "<group>"; };
+		1BF0EFB719A1E549007921EF /* cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover.jpg; sourceTree = "<group>"; };
+		1BF0EFB919A1EDB7007921EF /* cover2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +202,37 @@
 				1B32DFF81980ECEA0058D18F /* WLJThreadViewController.m */,
 			);
 			name = Thread;
+			sourceTree = "<group>";
+		};
+		1B3DFCBE199DF6F100E419C0 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				1B3DFCCB199DF81200E419C0 /* WLJJumpingViewController.h */,
+				1B3DFCCC199DF81200E419C0 /* WLJJumpingViewController.m */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+		1B3DFCBF199DF78100E419C0 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				1BECADC519A6EBFD00C094ED /* msg.jpg */,
+				1B3DFCC0199DF79E00E419C0 /* jumpgame */,
+				1B86A8A1197CAF71000604DB /* resources */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		1B3DFCC0199DF79E00E419C0 /* jumpgame */ = {
+			isa = PBXGroup;
+			children = (
+				1B3DFCC1199DF7C900E419C0 /* bg.jpg */,
+				1B3DFCC2199DF7C900E419C0 /* button.png */,
+				1B3DFCC3199DF7C900E419C0 /* jump1.png */,
+				1B3DFCC4199DF7C900E419C0 /* jump2.png */,
+				1B3DFCC5199DF7C900E419C0 /* ryu.png */,
+			);
+			name = jumpgame;
 			sourceTree = "<group>";
 		};
 		1B86A860197CA336000604DB = {
@@ -211,6 +273,9 @@
 		1B86A872197CA336000604DB /* IOSDemos */ = {
 			isa = PBXGroup;
 			children = (
+				1BECADC119A6DA7800C094ED /* window */,
+				1BF0EFB019A1DC49007921EF /* Cover */,
+				1B3DFCBE199DF6F100E419C0 /* Animation */,
 				1B9840F2198737DA00A6A31D /* Background */,
 				1B32DFF61980ECD70058D18F /* Thread */,
 				1BBF8389197FDBD9003FE97F /* Data Save */,
@@ -218,7 +283,7 @@
 				1BD01428197E44E9001ED318 /* Table Views */,
 				1B86A8A8197D0ACB000604DB /* Pickers */,
 				1B86A8A4197CBAFD000604DB /* Control Fun */,
-				1B86A8A1197CAF71000604DB /* resources */,
+				1B3DFCBF199DF78100E419C0 /* resources */,
 				1B86A87B197CA336000604DB /* WLJAppDelegate.h */,
 				1B86A87C197CA336000604DB /* WLJAppDelegate.m */,
 				1B86A87E197CA336000604DB /* Main.storyboard */,
@@ -262,6 +327,8 @@
 		1B86A8A1197CAF71000604DB /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				1BF0EFB919A1EDB7007921EF /* cover2.jpg */,
+				1BF0EFB719A1E549007921EF /* cover.jpg */,
 				1B9840F01987377D00A6A31D /* smile.jpg */,
 				1BD0142C197E4DB7001ED318 /* apple.jpg */,
 				1BD0142D197E4DB7001ED318 /* google.png */,
@@ -352,6 +419,28 @@
 			name = "Table Views";
 			sourceTree = "<group>";
 		};
+		1BECADC119A6DA7800C094ED /* window */ = {
+			isa = PBXGroup;
+			children = (
+				1BECADC219A6DF1700C094ED /* WLJWindow.h */,
+				1BECADC319A6DF1700C094ED /* WLJWindow.m */,
+				1BECADC719A6EDD100C094ED /* WLJShowMsgViewController.h */,
+				1BECADC819A6EDD100C094ED /* WLJShowMsgViewController.m */,
+			);
+			name = window;
+			sourceTree = "<group>";
+		};
+		1BF0EFB019A1DC49007921EF /* Cover */ = {
+			isa = PBXGroup;
+			children = (
+				1BF0EFB119A1DE8B007921EF /* WLJCoverTableViewController.h */,
+				1BF0EFB219A1DE8B007921EF /* WLJCoverTableViewController.m */,
+				1BF0EFB419A1DF58007921EF /* WLJCoverView.h */,
+				1BF0EFB519A1DF58007921EF /* WLJCoverView.m */,
+			);
+			name = Cover;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -429,21 +518,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BF0EFBA19A1EDB7007921EF /* cover2.jpg in Resources */,
 				1B86A885197CA336000604DB /* Images.xcassets in Resources */,
 				1B86A8B8197D4616000604DB /* pin1.jpg in Resources */,
 				1B9840F11987377D00A6A31D /* smile.jpg in Resources */,
 				1BD01430197E4DB7001ED318 /* google.png in Resources */,
 				1B86A8BA197D4616000604DB /* pin3.jpg in Resources */,
+				1BF0EFB819A1E549007921EF /* cover.jpg in Resources */,
 				1BBF8385197FAA2B003FE97F /* settings.storyboard in Resources */,
+				1B3DFCCA199DF7C900E419C0 /* ryu.png in Resources */,
 				1B86A877197CA336000604DB /* InfoPlist.strings in Resources */,
+				1B3DFCC7199DF7C900E419C0 /* button.png in Resources */,
 				1BD0142F197E4DB7001ED318 /* apple.jpg in Resources */,
 				1BE3969E197F9555000A29BD /* Settings.bundle in Resources */,
+				1B3DFCC8199DF7C900E419C0 /* jump1.png in Resources */,
 				1BD01431197E4DB7001ED318 /* microsoft.png in Resources */,
 				1B86A8A3197CAF8B000604DB /* demo1.jpg in Resources */,
 				1BD01436197E5DCC001ED318 /* sortedword.plist in Resources */,
 				1B86A8B9197D4616000604DB /* pin2.jpg in Resources */,
+				1B3DFCC6199DF7C900E419C0 /* bg.jpg in Resources */,
 				1BD01427197E2C1C001ED318 /* win.wav in Resources */,
 				1B86A880197CA336000604DB /* Main.storyboard in Resources */,
+				1BECADC619A6EBFD00C094ED /* msg.jpg in Resources */,
+				1B3DFCC9199DF7C900E419C0 /* jump2.png in Resources */,
 				1BD01425197E1EE3001ED318 /* lose.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,8 +562,11 @@
 			files = (
 				1B32DFF91980ECEA0058D18F /* WLJThreadViewController.m in Sources */,
 				1B86A87D197CA336000604DB /* WLJAppDelegate.m in Sources */,
+				1B3DFCCD199DF81200E419C0 /* WLJJumpingViewController.m in Sources */,
+				1BECADC419A6DF1700C094ED /* WLJWindow.m in Sources */,
 				1BBF8388197FAB06003FE97F /* WLJSpeedViewController.m in Sources */,
 				1BE39698197F548D000A29BD /* WLJUpdateTableViewController.m in Sources */,
+				1BECADC919A6EDD100C094ED /* WLJShowMsgViewController.m in Sources */,
 				1B32DFF31980A48E0058D18F /* WLJArchierViewController.m in Sources */,
 				1BD01434197E5D37001ED318 /* WLJWordTableViewController.m in Sources */,
 				1B86A8AB197D0EC7000604DB /* WLJDatePickerViewController.m in Sources */,
@@ -474,6 +574,7 @@
 				1BD0142B197E45C3001ED318 /* WLJCompanyTableViewController.m in Sources */,
 				1B86A8A7197CBB85000604DB /* WLJControlFunViewController.m in Sources */,
 				1BE39695197F4B7E000A29BD /* WLJCheckOneTableViewController.m in Sources */,
+				1BF0EFB619A1DF58007921EF /* WLJCoverView.m in Sources */,
 				1B86A8BD197D4807000604DB /* WLJCustomPickerViewController.m in Sources */,
 				1B86A8AE197D1529000604DB /* WLJSinglePickerViewController.m in Sources */,
 				1BBF838E197FDDCB003FE97F /* WLJPlistViewController.m in Sources */,
@@ -483,6 +584,7 @@
 				1B9840F5198737F700A6A31D /* WLJSmileViewController.m in Sources */,
 				1B32DFF01980A1CD0058D18F /* WLJDocumentModel.m in Sources */,
 				1BBF8383197FA562003FE97F /* WLJSettingsViewController.m in Sources */,
+				1BF0EFB319A1DE8B007921EF /* WLJCoverTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
